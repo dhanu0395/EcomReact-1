@@ -1,0 +1,68 @@
+.nav-logo{
+    column-gap: 20px;
+
+}
+
+.nav-logo img{
+    width: 60px;
+    height: 55px;
+}
+
+.nav-logo p{
+    color: rgb(69, 69, 245);
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.nav-menu{
+    list-style: none;
+    column-gap: 50px;
+}
+
+.nav-menu li{
+    /* list-style: none; */
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav-menu a{
+    list-style: none;
+    text-decoration: none;
+} 
+.nav-list-link{
+    list-style: none;
+}
+
+.navbar-login{
+    column-gap: 30px;
+}
+
+.navbar-login img{
+    width: 30px;
+    height: 30px;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: red;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.nav-cart-count{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -20px;
+    font-size: 14px;
+}
